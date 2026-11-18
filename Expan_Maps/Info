@@ -1,0 +1,5 @@
+One of the best features FoxAhead's patch is increasing map limit. However, many fun premade maps are made for the vanill small sizes. I would like them to be bigger, however, I am too lazy to redo them manually. 
+
+This small python script respahes existing maps to a larger size. I incuded some categorical interpolation method and nearest neighbor method. Both works well to my limited testing; however; I mostly used NN method.
+
+In FoxAhead's patch 32767 is the maximum allowed tile count with I beleive maximum tile in one direction being 256. I am not 100% sure of these numbers but if a map is too big; the game will crash.
